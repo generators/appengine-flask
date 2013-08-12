@@ -1,0 +1,44 @@
+{
+  "name": "generator-appengine-flask",
+  "version": "0.0.1",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/generators/appengine-flask",
+  "bugs": "https://github.com/generators/appengine-flask/issues",
+  "author": {
+    "name": "Daniel Chatfield",
+    "email": "chatfielddaniel@gmail.com",
+    "url": "https://github.com/danielchatfield"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/generators/appengine-flask.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.0",
+    "generator-appengine": "~1.1.5",
+    "spawny": "~0.0.1",
+    "yeoman-conductor": "~0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0"
+  },
+  "peerDependencies": {
+    "generator-appengine": "~1.1.2",
+    "yo": "~1.0.0-rc.1.4"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

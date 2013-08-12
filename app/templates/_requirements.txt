@@ -1,0 +1,4 @@
+Flask>=0.10.1<% if (libs.raven) { %>
+raven>=3.3.12<% } %><% if (libs.blinker) { %>
+blinker>=1.2<% } %><% if (libs.component) { %>
+component>=0.0.1<% } %>
