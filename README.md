@@ -1,5 +1,4 @@
-# Generator-Appengine Flask
-[![Build Status](https://secure.travis-ci.org/danielchatfield/generator-appengine-flask.png?branch=master)](https://travis-ci.org/danielchatfield/generator-appengine-flask)
+# Generator-Appengine Flask [![Build Status](https://secure.travis-ci.org/generators/appengine-flask.png?branch=master)](https://travis-ci.org/generators/appengine-flask)
 
 A generator for Yeoman.
 

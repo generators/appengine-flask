@@ -12,27 +12,10 @@ describe('Appengine Flask generator', function () {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('Appengine Flask:app', [
+      this.app = helpers.createGenerator('appengine-flask:app', [
         '../../app'
       ]);
       done();
     }.bind(this));
-  });
-
-  it('creates expected files', function (done) {
-    var expected = [
-      // add files you expect to exist here.
-      '.jshintrc',
-      '.editorconfig'
-    ];
-
-    helpers.mockPrompt(this.app, {
-      'someOption': 'Y'
-    });
-    this.app.options['skip-install'] = true;
-    this.app.run({}, function () {
-      helpers.assertFiles(expected);
-      done();
-    });
   });
 });
