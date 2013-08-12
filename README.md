@@ -1,4 +1,4 @@
-# Generator-Appengine Flask [![Build Status](https://secure.travis-ci.org/generators/appengine-flask.png?branch=master)](https://travis-ci.org/generators/appengine-flask)
+# Generator-Appengine Flask [![Build Status](https://secure.travis-ci.org/generators/appengine-flask.png?branch=master)](https://travis-ci.org/generators/appengine-flask) [![Dependency Status](https://david-dm.org/generators/generator-appengine-flask.png)](https://david-dm.org/generators/generator-appengine-flask)
 
 A generator for Yeoman.
 
